@@ -1,0 +1,389 @@
+/* snippet content styles */
+/* images */
+.vt_img_left span.top,
+.vt_img_left span.bottom,
+.vt_img_right span.top,
+.vt_img_right span.bottom,
+.vt_img_center span.top,
+.vt_img_center span.bottom,
+.vt_img_caption_left span.top,
+.vt_img_caption_center span.top,
+.vt_img_caption_right span.top,
+.vt_img_caption_left span.bottom,
+.vt_img_caption_center span.bottom,
+.vt_img_caption_right span.bottom {
+  display:none;
+}
+.vt_img_left,
+.vt_img_right,
+.vt_img_center {
+	
+}
+.vt_img_center img{
+  display: block;
+  margin: auto auto;
+}
+
+.vt_small_img p {
+  display:block;
+  padding:2px;
+  width:195px;
+}
+.vt_small_img p span {
+  display:block;
+  float:left;
+  padding:10px;
+  width:170px;
+}
+.vt_medium_img p {
+  width:500px;
+}
+.vt_medium_img p span {
+  display:block;
+  float:left;
+  padding:10px;
+  width:485px;
+}
+.vt_large_img p {
+  display:block;
+  padding:2px;
+}
+.vt_large_img p span {
+  display:block;
+  float:left;
+  padding:10px 5px;
+  text-align:left;
+}
+
+.vt_img_caption_left,
+.vt_img_left {
+  float:left;
+  margin-right:10px;
+}
+.vt_img_caption_right,
+.vt_img_right {
+  float:right;
+  margin-left:10px;
+}
+.vt_img_caption_left,
+.vt_img_caption_center,
+.vt_img_caption_right {
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+}
+.vt_img_caption_left p img,
+.vt_img_caption_center p img,
+.vt_img_caption_right p img {
+  margin-top:0;
+}
+.vt_img_caption_left p span,
+.vt_img_caption_center p span,
+.vt_img_caption_right p span {
+  font-size:.9em;
+  line-height:1.2em;
+  width:100%!important;
+}
+.vt_img_caption_left p,
+.vt_img_caption_center p,
+.vt_img_caption_right p {
+  display:block;
+  overflow:hidden;
+  padding:3px;
+}
+.vt_img_caption_center,
+.vt_img_center {
+  clear:both;
+  float:none;
+  margin: auto auto;
+  width:100%!important;
+}
+.vt_img_caption_center p,
+.vt_img_center p {
+  display:block;
+  float:none;
+  margin:0 auto;
+  width:100%!important;
+}
+.vt_img_caption_center p img {
+  clear:both;
+}
+.vt_with_caption p {
+  margin-bottom:3px;
+  margin-top:3px;
+  padding-bottom:0;
+  padding-top:0;
+}
+.vt_with_caption p img {
+  margin-top:0;
+}
+.vt_with_caption {
+  float:left;
+  padding:0 3px 3px;
+}
+.vt_with_caption span {
+  clear:both;
+  color:#515368;
+  float:left;
+  font-size:1em;
+  line-height:1.2em;
+  margin-top:5px;
+  padding:10px;
+  width:100%!important;
+}
+.vt_with_caption span em.vt_photo_credit {
+  clear:both;
+  float:right;
+  font-size:.9em;
+  margin-top:8px;
+  padding-right:10px;
+}
+.vt_multibrief_content img{
+	width: 100%;
+	height: auto;
+}
+.vt_multibrief_content div[class*='vt_img_']{
+	margin: 0;
+}
+table tr td div.vt_img_center,
+table tr td div.vt_img_caption_center {
+  text-align:center;
+  width:100%;
+}
+
+/* For auto and manual indexers */
+span.vt_time_formatted{
+  font-style: italic;
+}
+
+.vtSnContainer div h2{
+  margin-top: 0;
+  padding-top: 0;
+  font-size:13px;
+}
+
+.vtSnContainer div.vt_title_with_image h2{
+  padding-top: 5px;
+}
+
+.vtSnContainer > ul > li {
+  border-top:1px solid #ccc;
+  background:none;
+  padding-left:0;
+  padding-top: 10px;
+  float: left;
+  width: 100%;
+  list-style: none;
+}
+.vtSnContainer > ul > li:first-child{
+  border-top:none;
+}
+
+/* date before styles */
+.vt_list_DateBefore .vt_date_time{
+  float: left;
+  width: 100px;
+}
+.vtSnContainer .vt_list_DateBefore > div.vt_brief,
+.vtSnContainer .vt_list_DateBefore > span {
+ float: left;
+ padding-left: 5px;
+ border-left: 0px solid #ccc;
+ width:300px;
+}
+
+
+
+#vt_autoindexer .vtSnContainer ul[class*="Index"] * {
+  /*width:100%;*/
+  float:left;
+  clear:both;
+  margin-left:0;
+  padding-left:0;
+  padding-right:0;
+  margin-right:0;
+}
+
+ul.vt_bio_snippet,
+ul.vt_bio_snippet li{
+  list-style: none;
+}
+
+ul.vt_bio_snippet li:not(:first-child){
+  border-bottom:0px solid red;
+}
+
+ul.vt_bio_snippet li:last-child{
+  border-bottom:0px solid white;
+}
+
+
+
+
+
+.vt_list_DateBefore span.vt_time_formatted,
+.vt_list_DateBefore span.vt_date_formatted  
+{
+  clear: right;
+  float:left;
+}
+/* Date after styles */
+.vtSnContainer .vt_list_DateAfter > div.vt_brief,
+.vtSnContainer .vt_list_DateAfter > span{
+  width: 390px;
+  float: left;
+  padding-right: 5px;
+  border-right: 1px solid #ccc;
+}
+.vt_list_DateAfter span.vt_time_formatted,
+.vt_list_DateAfter span.vt_date_formatted  
+{
+  clear: right;
+  display:block;       
+}
+.vt_list_DateAfter .vt_date_time{
+  padding-left: 400px;
+}
+/* when in rb */
+#vt_right_col .vtSnContainer .vt_list_DateBefore > div.vt_brief,
+#vt_right_col .vtSnContainer .vt_list_DateBefore > span,
+#vt_right_col .vtSnContainer .vt_list_DateAfter > div.vt_brief,
+#vt_right_col .vtSnContainer .vt_list_DateAfter > span,
+.small_col .vtSnContainer .vt_list_DateAfter > div.vt_brief,
+.small_col .vtSnContainer .vt_list_DateAfter > span
+{
+  width: auto;
+  float: none;
+  padding-right: 0px;
+  border-left: none;
+  border-right: none;
+}
+.vt_date_time{
+  padding: 0; 
+  clear: both;
+}
+
+/* when there is no date and time */
+.vtSnContainer.dformat_none.tformat_none .vt_list_DateAfter > div.vt_brief,
+.vtSnContainer.dformat_none.tformat_none .vt_list_DateAfter > span,
+.vtSnContainer.dformat_none.tformat_none .vt_list_DateBefore > div.vt_brief,
+.vtSnContainer.dformat_none.tformat_none .vt_list_DateBefore > span
+  {
+  border-right: none;
+  border-left: none;
+  width: 100%;
+  float: none;
+}
+/* titles without date time should look like a "normal" list */
+.vtSnContainer.dformat_none.tformat_none > ul.vt_index_title > li{
+  border-bottom: none;
+  background: url("../images/li_black.html") no-repeat scroll left center transparent;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* using clearfix from bootstrap */
+.vt_brief, .vt_multibrief_content {
+  *zoom: 1;
+}
+.vt_brief:before,
+.vt_brief:after,
+.vt_multibrief_content:before,
+.vt_multibrief_content:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.vt_brief:after, 
+.vt_multibrief_content:after {
+  clear: both;
+}
+
+.vtSnContainer .vt_list_DateBefore > div.vt_brief,
+.vtSnContainer .vt_list_DateBefore > span {
+ padding-left: 0px;
+}
+
+/* right col fix */
+
+#vt_right_col .vt_img_left img,
+#vt_right_col .vt_img_right img,
+#vt_right_col .vt_img_center img {
+  /* width:100%;
+  clear:both;
+  height:auto; */
+  margin-left:0;
+  margin-right:0;
+
+}
+
+
+#vt_right_col .vt_img_left a,
+#vt_right_col .vt_img_right a,
+#vt_right_col .vt_img_center a,
+#vt_right_col .vt_img_left,
+#vt_right_col .vt_img_right,
+#vt_right_col .vt_img_center{
+  float:left;
+  clear:both;
+  width:100%;
+}
+
+#vt_right_col .vt_date_time{
+  padding-left:0;
+  margin-bottom:5px;
+}
+#vt_right_col .vtSnContainer ul.vtSnAutoIndex,
+#vt_right_col .vtSnContainer ul.vtSnAutoIndex li{
+  margin-left:0;
+  padding-left:0;
+}
+
+#vt_right_col > div > div.vtSnContainer{
+  float:left;
+  clear:both;
+  background:none;
+}
+
+#vt_right_col > hr{
+  float:left;
+  clear:both;
+}
+
+#vt_right_col > div.vt_brief:not(:first-child),
+{  float:left;
+  clear:both;
+}
+
+#vt_bio #vt_right_col > div:not(:first-child){
+  float:left;
+  clear:both;
+}
+
+#vt_bio #vt_right_col > div:not(:first-child){
+  margin-bottom:5px;
+  padding-bottom:0px;
+  width:100%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#vt_bio #vt_right_col > hr{
+  display:none;
+}
+
+#vt_bio #vt_right_col > div > h2{
+  width:100%;
+  float:left;
+  clear:both;
+}
+
+#vt_right_col > div > ul > li a:before{
+  display:none;
+
+}
+
+#vt_right_col > div > ul > li:before{
+  float:left;
+  clear:left;
+}

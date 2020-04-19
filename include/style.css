@@ -1,0 +1,13 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	border: 5px solid puple;
+	background-color: purple;
+	color: white;
+	text-align: center;
+	top: 2px;
+	width: 100%;
+	padding: 1px;
+}
